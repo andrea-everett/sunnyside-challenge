@@ -72,7 +72,7 @@ a {
 
 .title {
     position: absolute;
-    margin-top: 28%;
+    margin-top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -86,7 +86,7 @@ a {
 .arrowimg {
     position: absolute;
     left: 50%;
-    margin-top: 35%;
+    margin-top: 25%;
     transition: translate(-50%, -50%);
     color: white;
 }
@@ -105,7 +105,7 @@ a {
 .content-grid-item img {
    display: block;
    height: 100%;
-   width: auto;
+   width: 1000px;
 }
 
 .content-grid-item h1 {
@@ -365,7 +365,7 @@ footer {
     flex-basis: auto;
     position: relative;
     top: 25%;
-    left: 45%;
+    left: 46%;
     column-gap: 1.5em;
 }
 
