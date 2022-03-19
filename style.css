@@ -389,6 +389,10 @@ footer {
     
 }
 
+.nav-accent {
+    display: none;
+}
+
 
 @media screen and (max-width: 375px) {
     .topnav-right {
@@ -403,6 +407,7 @@ footer {
     .showTopNavRight {
         transform: translateY(0);
     }
+
     .active-topnav {
         display: flex;
         flex-direction: column; 
@@ -413,6 +418,15 @@ footer {
         text-align: center;
         top: 100vh;
         color: black;
+    }
+
+    .nav-accent {
+        border: 15px solid white;
+        border-top: 20px solid white;
+        border-left: 20px solid white;
+        position: absolute;
+        right: 1rem;
+        top: 3rem;
     }
     
     .topnav-right a {
