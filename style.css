@@ -428,26 +428,37 @@ footer {
         text-align: center;
         top: 100vh;
         color: black;
+    } 
+
+    .active-topnav:after {
+        right: 0;
+        border-top: .6rem solid transparent;
+        border-bottom: .6rem solid white;
+        border-left: .6rem solid transparent;
+        border-right: .6rem solid white;
+        content: "";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        right: 1rem;
+        top: 3.5rem;
+    } 
+
+    .active-topnav:before {
+        border-color: white;
+    } 
+
+    .active.nav-accent {
+        position: absolute;
+        right: 0rem;
+        top: 4rem; 
     }
 
-    /* .active-topnav::after {
-        position: absolute;
-        content: "";
-        border-left: 1px solid transparent;
-        border-right: 5px solid transparent;
-        border-bottom: 5px solid white;
-        top: 0;
-        left: 20%;
-        transform: translate(-50%);
-    } */
-
     .nav-accent {
-        border: 12px solid white;
-        border-top: 0px solid white;
-        border-left: 20px solid white;
         position: absolute;
-        right: .1rem;
-        top: 3rem;
+        right: 0rem;
+        top: 4rem;
     }
     
     .topnav-right a {
