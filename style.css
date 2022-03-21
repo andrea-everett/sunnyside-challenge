@@ -125,7 +125,7 @@ a {
 
 .content-grid-item p {
     color: #818498;
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Barlow", sans-serif;
     line-height: 1.6rem;
     margin-top: 60px;
@@ -202,6 +202,51 @@ a {
     opacity: 1;
 }
 
+.graphic-title {
+    position: relative;
+    top: -40%;
+    font-family: 'fraunces', serif;
+    color: rgb(37, 86, 75);
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+}
+
+.graphic-info {
+    position: relative;
+    top: -37%;
+    left: 22%;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(37, 86, 75);
+    line-height: 2rem;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    width: 55%;
+}
+
+.photography-title {
+    position: relative;
+    top: -40%;
+    font-family: 'fraunces', serif;
+    color: rgb(37, 86, 75);
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+}
+
+.photography-info {
+    position: relative;
+    top: -37%;
+    left: 22%;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(37, 86, 75);
+    line-height: 2rem;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    width: 55%;
+}
 
 .client-section {
     display: flex;
@@ -331,7 +376,7 @@ footer {
     font: black;
     height: 400px;
     text-decoration: none;
-    padding-top: 16px;
+    padding-top: 3rem;;
 }
 
 .footertitle {
@@ -380,8 +425,9 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding: 8px;
+    padding: 2rem;
     margin-top: 96px;
+    line-height: .5rem;
 }
 
 .active-topnav {
@@ -499,11 +545,13 @@ footer {
         padding-bottom: 1em;
         top: 0vh;
     }
+
     .logo {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
+
     .logo img {
         margin: 1rem;
         width: 40%;
@@ -540,34 +588,31 @@ footer {
         flex: 375px;
      }
      
-     .content-grid-item {
-         display: grid;
-     }
-     
      .content-grid-item img {
          width: 375px;
      }
      
      .content-grid-item h1 {
          font-family: "Fraunces", serif;
-         width: 75%;
-         margin-right: 28px;
+         width: 80%;
+         margin-left: 2.5rem;
          text-align: center;
          color: #23303e;
          text-transform: bold;
-         font-size: 44px;
+         font-size: 35px;
          font-weight: 900;
      }
      
      .content-grid-item p {
-         color: #818498;
-         font-size: 18px;
+         color: grey;
+         font-size: 20px;
          font-family: "Barlow", sans-serif;
          text-align: center;
-         padding: 0;
          line-height: 2rem;
-         margin-right: 6px;
-         width: 80%;
+         padding: 0;
+         margin-left: 2.5rem;
+         margin-top: 0;
+         width: 79%;
      }
 
      .content-grid-item2 p {
@@ -626,7 +671,6 @@ footer {
          font-weight: 900;
      }
      
- 
      .content-grid .button2 {
          font-family: "Fraunces", serif;
          font-size: 18px;
@@ -660,7 +704,6 @@ footer {
          opacity: 1;
      }
      
- 
      .content-grid .button2 {
          font-family: "Fraunces", serif;
          font-size: 20px;
@@ -726,6 +769,48 @@ footer {
          padding-bottom: 1em;
          width: 90%;
      }
+
+     .graphic-title {
+        position: relative;
+        top: -40%;
+        font-weight: 900;
+        font-size: 23px;
+        text-align: center;
+    }
+    
+    .graphic-info {
+        position: relative;
+        top: -38%;
+        left: 10%;
+        line-height: 1.5rem;
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        width: 80%;
+    }
+    
+    .photography-title {
+        position: relative;
+        top: -39%;
+        font-family: 'fraunces', serif;
+        color: rgb(37, 86, 75);
+        font-weight: 900;
+        font-size: 23px;
+        text-align: center;
+    }
+    
+    .photography-info {
+        position: relative;
+        top: -37%;
+        left: 15%;
+        font-family: 'Barlow', sans-serif;
+        color: rgb(37, 86, 75);
+        line-height: 1.5rem;
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        width: 70%;
+    }
  
      .client-section {
          display: flex;
@@ -738,10 +823,6 @@ footer {
      .client-card-row {
          display: flex;
          flex-wrap: wrap;
-         /* flex-direction: row;
-         row-gap: 4em;
-         padding-left: 2em;
-         padding-right: 2em; */
      }
      
      .client-card {
