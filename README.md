@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/sunnyside-desktop.jpg)
+![](./screenshots/final-screenshot.jpg)
     (./screenshots/mobile-screenshots.jpg)
 
 ### Links
