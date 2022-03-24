@@ -15,7 +15,7 @@ Users should be able to:
     (./screenshots/mobile-screenshots.jpg)
 
 ### Links
-- Live Site URL: (git@github.com:andrea-everett/sunnyside-challenge.git)
+- Live Site URL: (https://andrea-everett.github.io/sunnyside-challenge/)
 
 ## My process
 
