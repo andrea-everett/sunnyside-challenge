@@ -11,11 +11,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/sunnyside-desktop.jpg)
+![](./screenshots/final-screenshot.jpg)
     (./screenshots/mobile-screenshots.jpg)
 
 ### Links
-- Live Site URL: (git@github.com:andrea-everett/sunnyside-challenge.git)
+- Live Site URL: (https://andrea-everett.github.io/sunnyside-challenge/)
 
 ## My process
 
@@ -77,7 +77,9 @@ I would like to dive deeper into CSS Grid and Flex and how it can be applied to 
 
 ## Author
 
-- Website - [Andrea Everett](git@github.com:andrea-everett/sunnyside-challenge.git)
+- Website - [Andrea Everett]
+                live url: (https://andrea-everett.github.io/sunnyside-challenge/)
+                github: (https://github.com/andrea-everett/sunnyside-challenge.git)
 - Frontend Mentor - [@andrea-everett](https://www.frontendmentor.io/profile/andrea-everett)
 - LinkedIn - [Andrea Everett]
 
