@@ -440,7 +440,7 @@ footer {
 
 @media screen and (max-width: 767px) {
     header {
-        background-image: url("../images/mobile/image-header.jpg");
+        background-image: url("./images/mobile/image-header.jpg");
         align-items: center;
         height: 500px;
         max-width: 767px;
