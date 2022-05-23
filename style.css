@@ -443,7 +443,7 @@ footer {
         background-image: url("../images/mobile/image-header.jpg");
         align-items: center;
         height: 500px;
-        max-width: 100%;
+        max-width: 767px;
         position: relative;
         overflow: hidden; 
         display: block; 
