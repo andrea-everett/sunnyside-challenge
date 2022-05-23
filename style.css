@@ -438,12 +438,12 @@ footer {
     display: none;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 767px) {
     header {
         background-image: url("../images/mobile/image-header.jpg");
         align-items: center;
         height: 500px;
-        width: 375px;
+        max-width: 100%;
         position: relative;
         overflow: hidden; 
         display: block; 
@@ -525,7 +525,6 @@ footer {
         text-transform: uppercase;
         font-weight: 800;
         letter-spacing: 6px;
-    
     }
 
     .arrowimg {
@@ -587,7 +586,7 @@ footer {
      }
      
      .content-grid-item img {
-         width: 375px;
+         max-width: 100%;
      }
      
      .content-grid-item h1 {
