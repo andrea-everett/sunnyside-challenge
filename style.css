@@ -146,8 +146,8 @@ a {
     z-index: 1;
     cursor: pointer;
     font-weight: 700;
-    margin-left: 45px;
-    margin-top: 40px;
+    left: 6%;
+    margin-top: 30px;
     margin-bottom: 80px;
     color: #23303e;
 }
@@ -170,19 +170,19 @@ a {
 }
 
 .content-grid .button2 {
-    font-family: "Fraunces", serif;
-    font-size: 18px;
-    width: fit-content;
-    position: relative;
-    color: #23303e;
-    text-transform: uppercase;
-    text-transform: bold;
-    z-index: 1;
-    cursor: pointer;
-    font-weight: 500;
-    margin-left: 45px;
-    margin-top: 40px;
-    color: #23303e;
+  font-family: "Fraunces", serif;
+  font-size: 18px;
+  width: fit-content;
+  position: relative;
+  color: #23303e;
+  text-transform: bold;
+  z-index: 1;
+  cursor: pointer;
+  font-weight: 700;
+  left: 6%;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  color: #23303e;
 }
 
 .button2::before {
@@ -410,9 +410,10 @@ footer {
     flex-direction: row;
     flex-wrap: nowrap;
     flex-basis: auto;
+    padding-bottom: 1rem;
     position: relative;
+    justify-content: center;
     top: 25%;
-    left: 46%;
     column-gap: 1.5em;
 }
 
@@ -430,7 +431,7 @@ footer {
 }
 
 .active-topnav {
-    display: flex;
+    display: hidden;
     
 }
 
@@ -475,6 +476,7 @@ footer {
     } 
 
     .active-topnav:after {
+        text-align: center;
         right: 0;
         border-top: .6rem solid transparent;
         border-bottom: .6rem solid white;
@@ -486,7 +488,7 @@ footer {
         position: absolute;
         pointer-events: none;
         right: 1rem;
-        top: 3.8rem;
+        top: 20%;
     } 
 
     .active-topnav:before {
@@ -506,8 +508,8 @@ footer {
     }
     
     .topnav-right a {
+        text-align: center;
         color: black;
-        align-items: center;
         line-height: 3.5rem;
         font-size: 1.2rem;
         margin: auto;
@@ -530,7 +532,7 @@ footer {
     .arrowimg {
         position: absolute;
         left: 45%;
-        margin-top: 60%;
+        margin-top: 80%;
         transition: translate(-50%, -50%);
         color: white;
     }
@@ -547,10 +549,11 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-top: 1rem;
     }
 
     .logo img {
-        margin: 1rem;
+        margin-top: .5rem;
         width: 40%;
         padding: 0;
     }
@@ -560,11 +563,11 @@ footer {
         display: flex;
         flex-direction: row;
         width: 20%;
+        background:transparent;
     }
   
     .link {
         font-family: "Barlow", sans-serif;
-        position: relative;
         line-height: 4rem;
         font-size: 20px;
         top: 50%;
@@ -574,9 +577,12 @@ footer {
 
     .btn {
         position: absolute;
-        top: 75%;
-        left: 35%;
+        top: 70%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
         background-color: rgb(250, 212, 0);
+        padding:.5rem;
     }
 
     .content-grid {
@@ -626,7 +632,9 @@ footer {
      .content-grid .button1 {
          font-family: "Fraunces", serif;
          font-size: 20px;
-         text-align: center;
+         left: 50%;
+         margin-right: -50%;
+         transform: translate(-50%, -50%);
          width: fit-content;
          position: relative;
          color: #23303e;
@@ -634,8 +642,7 @@ footer {
          z-index: 1;
          cursor: pointer;
          font-weight: 800;
-         margin-left: 120px;
-         margin-top: 20px;
+         margin-top: 40px;
          margin-bottom: 80px;
          color: #23303e;
      }
@@ -669,19 +676,21 @@ footer {
      }
      
      .content-grid .button2 {
-         font-family: "Fraunces", serif;
-         font-size: 18px;
-         width: fit-content;
-         position: relative;
-         color: #23303e;
-         text-transform: uppercase;
-         text-transform: bold;
-         z-index: 1;
-         cursor: pointer;
-         font-weight: 500;
-         margin-left: 45px;
-         margin-top: 20px;
-         color: #23303e;
+      font-family: "Fraunces", serif;
+      font-size: 20px;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      width: fit-content;
+      position: relative;
+      color: #23303e;
+      text-transform: bold;
+      z-index: 1;
+      cursor: pointer;
+      font-weight: 800;
+      margin-top: 40px;
+      margin-bottom: 80px;
+      color: #23303e;
      }
      
      .button2::before {
@@ -702,20 +711,21 @@ footer {
      }
      
      .content-grid .button2 {
-         font-family: "Fraunces", serif;
-         font-size: 20px;
-         text-align: center;
-         width: fit-content;
-         position: relative;
-         color: #23303e;
-         text-transform: bold;
-         z-index: 1;
-         cursor: pointer;
-         font-weight: 800;
-         margin-left: 120px;
-         margin-top: 40px;
-         margin-bottom: 80px;
-         color: #23303e;
+        font-family: "Fraunces", serif;
+        font-size: 20px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        width: fit-content;
+        position: relative;
+        color: #23303e;
+        text-transform: bold;
+        z-index: 1;
+        cursor: pointer;
+        font-weight: 800;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        color: #23303e;
      }
      
      .button2:hover::before {
@@ -972,7 +982,6 @@ footer {
          flex-basis: auto;
          position: relative;
          top: 25%;
-         left: 30%;
          column-gap: 1.5em;
      }
      
