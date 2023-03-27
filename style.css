@@ -532,7 +532,7 @@ footer {
     .arrowimg {
         position: absolute;
         left: 45%;
-        margin-top: 80%;
+        margin-top: 60%;
         transition: translate(-50%, -50%);
         color: white;
     }
